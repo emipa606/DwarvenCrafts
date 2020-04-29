@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="CraftsBase" ParentName="ResourceBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+    </statBases>
+    <thingCategories>
+      <li>DWC_Crafts</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Furniture</li>
+      <li>Exotic</li>
+    </tradeTags>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+  <ThingDef Name="RecipeMakerCraftsBase" ParentName="CraftsBase" Abstract="True">
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <workSpeedStat>WorkSpeedGlobal</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>CutStone</effectWorking>
+      <soundWorking>Interact_ConstructWood</soundWorking>
+      <recipeUsers>
+        <li>DWC_TableCrafting</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="HQRecipeMakerCraftsBase" ParentName="CraftsBase" Abstract="True">
+    <statBases>
+      <WorkToMake>750</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <workSpeedStat>WorkSpeedGlobal</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>CutStone</effectWorking>
+      <soundWorking>Interact_ConstructWood</soundWorking>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+        <Artistic>5</Artistic>
+      </skillRequirements>
+      <recipeUsers>
+        <li>TableSculpting</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  <!-- ==================== Item Bases ==================== -->
+  <ThingDef Name="FigurineBase" ParentName="CraftsBase" Abstract="True">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtSculpture</nameMaker>
+        <descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+      </li>
+    </comps>
+    <stackLimit>1</stackLimit>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Artistic</workSkill>
+      <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+      <effectWorking>Sculpt</effectWorking>
+      <soundWorking>Recipe_Sculpt</soundWorking>
+      <recipeUsers>
+        <li>TableSculpting</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="MugBase" ParentName="RecipeMakerCraftsBase" Abstract="True">
+    <description>A simple stone mug for drinking out of.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/Mug</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef Name="HQMugBase" ParentName="HQRecipeMakerCraftsBase" Abstract="True">
+    <description>An impressive stone mug for drinking out of.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/HQMug</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef Name="GobletBase" ParentName="RecipeMakerCraftsBase" Abstract="True">
+    <description>A simple metal goblet for drinking out of.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/Goblet</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef Name="HQGobletBase" ParentName="HQRecipeMakerCraftsBase" Abstract="True">
+    <description>An impressive metal goblet for drinking out of.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/HQGoblet</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef Name="CupBase" ParentName="RecipeMakerCraftsBase" Abstract="True">
+    <description>A simple wooden cup for drinking out of.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/Cup</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.5</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef Name="HQCupBase" ParentName="HQRecipeMakerCraftsBase" Abstract="True">
+    <description>An impressive wooden cup for drinking out of.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/HQCup</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>11</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef Name="SmallPotBase" ParentName="RecipeMakerCraftsBase" Abstract="True">
+    <description>A small metal pot for cooking in.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/SmallPot</texPath>
+    </graphicData>
+    <statBases>
+      <WorkToMake>750</WorkToMake>
+    </statBases>
+  </ThingDef>
+  <ThingDef Name="LargePotBase" ParentName="RecipeMakerCraftsBase" Abstract="True">
+    <description>A large metal pot for cooking in.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/LargePot</texPath>
+    </graphicData>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+    </statBases>
+  </ThingDef>
+  <ThingDef Name="BowlBase" ParentName="RecipeMakerCraftsBase" Abstract="True">
+    <description>A bowl for eating out of.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/Bowl</texPath>
+    </graphicData>
+    <statBases>
+      <WorkToMake>750</WorkToMake>
+    </statBases>
+  </ThingDef>
+  <ThingDef Name="UtensilsBase" ParentName="RecipeMakerCraftsBase" Abstract="True">
+    <description>A set of utensils for eating with.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/Utensils</texPath>
+    </graphicData>
+    <statBases>
+      <WorkToMake>750</WorkToMake>
+    </statBases>
+  </ThingDef>
+</Defs>

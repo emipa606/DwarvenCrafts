@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--  
+ROI Prices:
+ Basic Material: 400% / 500%
+ Precious Material: 175% / 200%
+ =====================
+ Basic materials need higher ROI to account for trader price reduction
+ Precious has lower ROI but gives more money at once
+-->
+  <!-- ==================== Base Inheritors ==================== -->
+  <ThingDef ParentName="FigurineBase">
+    <defName>DWC_Figurine</defName>
+    <label>figurine</label>
+    <description>A miniature piece of material sculpted into an artistic form.</description>
+    <graphicData>
+      <texPath>Cupro/Item/Crafts/Figurine</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+  </ThingDef>
+  <!-- =============== Stone Mugs =============== -->
+  <ThingDef ParentName="MugBase">
+    <defName>DWC_Mug_Stone</defName>
+    <label>mug</label>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>1</costStuffCount>
+  </ThingDef>
+  <ThingDef ParentName="HQMugBase">
+    <defName>DWC_HQMug_Stone</defName>
+    <label>high-quality mug</label>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>1</costStuffCount>
+  </ThingDef>
+  <!-- =============== Metal Goblets =============== -->
+  <ThingDef ParentName="GobletBase">
+    <defName>DWC_Goblet_Steel</defName>
+    <label>steel goblet</label>
+    <graphicData>
+      <color>(102,102,105)</color>
+    </graphicData>
+    <costList>
+      <Steel>2</Steel>
+    </costList>
+    <statBases>
+      <MarketValue>16</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="HQGobletBase">
+    <defName>DWC_HQGoblet_Steel</defName>
+    <label>high-quality steel goblet</label>
+    <graphicData>
+      <color>(102,102,105)</color>
+    </graphicData>
+    <costList>
+      <Steel>2</Steel>
+    </costList>
+    <statBases>
+      <MarketValue>20</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="GobletBase">
+    <defName>DWC_Goblet_Silver</defName>
+    <label>silver goblet</label>
+    <graphicData>
+      <color>(180,173,150)</color>
+    </graphicData>
+    <costList>
+      <Silver>2</Silver>
+    </costList>
+    <statBases>
+      <MarketValue>70</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="HQGobletBase">
+    <defName>DWC_HQGoblet_Silver</defName>
+    <label>high-quality silver goblet</label>
+    <graphicData>
+      <color>(180,173,150)</color>
+    </graphicData>
+    <costList>
+      <Silver>2</Silver>
+    </costList>
+    <statBases>
+      <MarketValue>80</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="GobletBase">
+    <defName>DWC_Goblet_Gold</defName>
+    <label>golden goblet</label>
+    <graphicData>
+      <color>(255,235,122)</color>
+    </graphicData>
+    <costList>
+      <Gold>2</Gold>
+    </costList>
+    <statBases>
+      <MarketValue>2450</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="HQGobletBase">
+    <defName>DWC_HQGoblet_Gold</defName>
+    <label>high-quality golden goblet</label>
+    <graphicData>
+      <color>(255,235,122)</color>
+    </graphicData>
+    <costList>
+      <Gold>2</Gold>
+    </costList>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+    </statBases>
+  </ThingDef>
+  <!-- =============== Wooden Cups =============== -->
+  <ThingDef ParentName="CupBase">
+    <defName>DWC_Cup_Wood</defName>
+    <label>wooden cup</label>
+    <graphicData>
+      <color>(133,97,67)</color>
+    </graphicData>
+    <costList>
+      <WoodLog>2</WoodLog>
+    </costList>
+    <statBases>
+      <MarketValue>11.2</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="HQCupBase">
+    <defName>DWC_HQCup_Wood</defName>
+    <label>high-quality wooden cup</label>
+    <graphicData>
+      <color>(133,97,67)</color>
+    </graphicData>
+    <costList>
+      <WoodLog>2</WoodLog>
+    </costList>
+    <statBases>
+      <MarketValue>14</MarketValue>
+    </statBases>
+  </ThingDef>
+  <!-- =============== Pots =============== -->
+  <ThingDef ParentName="SmallPotBase">
+    <defName>DWC_SmallPot_Steel</defName>
+    <label>small steel pot</label>
+    <graphicData>
+      <color>(102,102,105)</color>
+    </graphicData>
+    <costList>
+      <Steel>5</Steel>
+    </costList>
+    <statBases>
+      <MarketValue>40</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="SmallPotBase">
+    <defName>DWC_SmallPot_Silver</defName>
+    <label>small silver pot</label>
+    <graphicData>
+      <color>(180,173,150)</color>
+    </graphicData>
+    <costList>
+      <Silver>4</Silver>
+      <Steel>1</Steel>
+    </costList>
+    <statBases>
+      <MarketValue>143.5</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LargePotBase">
+    <defName>DWC_LargePot_Steel</defName>
+    <label>large steel pot</label>
+    <graphicData>
+      <color>(102,102,105)</color>
+    </graphicData>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <statBases>
+      <MarketValue>80</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="LargePotBase">
+    <defName>DWC_LargePot_Silver</defName>
+    <label>large silver pot</label>
+    <graphicData>
+      <color>(180,173,150)</color>
+    </graphicData>
+    <costList>
+      <Silver>8</Silver>
+      <Steel>2</Steel>
+    </costList>
+    <statBases>
+      <MarketValue>287</MarketValue>
+    </statBases>
+  </ThingDef>
+  <!-- =============== Bowls =============== -->
+  <ThingDef ParentName="BowlBase">
+    <defName>DWC_Bowl_Stone</defName>
+    <label>bowl</label>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>2</costStuffCount>
+    <statBases>
+      <MarketValue>15.2</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BowlBase">
+    <defName>DWC_Bowl_Steel</defName>
+    <label>steel bowl</label>
+    <graphicData>
+      <color>(102,102,105)</color>
+    </graphicData>
+    <costList>
+      <Steel>2</Steel>
+    </costList>
+    <statBases>
+      <MarketValue>16</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="BowlBase">
+    <defName>DWC_Bowl_Wood</defName>
+    <label>wooden bowl</label>
+    <graphicData>
+      <color>(133,97,67)</color>
+    </graphicData>
+    <costList>
+      <WoodLog>2</WoodLog>
+    </costList>
+    <statBases>
+      <MarketValue>11.2</MarketValue>
+    </statBases>
+  </ThingDef>
+  <!-- =============== Utensils =============== -->
+  <ThingDef ParentName="UtensilsBase">
+    <defName>DWC_Utensils_Steel</defName>
+    <label>steel utensils</label>
+    <graphicData>
+      <color>(102,102,105)</color>
+    </graphicData>
+    <costList>
+      <Steel>2</Steel>
+    </costList>
+    <statBases>
+      <MarketValue>16</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="UtensilsBase">
+    <defName>DWC_Utensils_Silver</defName>
+    <label>silver utensils</label>
+    <graphicData>
+      <color>(180,173,150)</color>
+    </graphicData>
+    <costList>
+      <Silver>2</Silver>
+    </costList>
+    <statBases>
+      <MarketValue>70</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="UtensilsBase">
+    <defName>DWC_Utensils_Gold</defName>
+    <label>golden utensils</label>
+    <graphicData>
+      <color>(255,235,122)</color>
+    </graphicData>
+    <costList>
+      <Gold>2</Gold>
+    </costList>
+    <statBases>
+      <MarketValue>2450</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="UtensilsBase">
+    <defName>DWC_Utensils_Wood</defName>
+    <label>wooden utensils</label>
+    <graphicData>
+      <color>(133,97,67)</color>
+    </graphicData>
+    <costList>
+      <WoodLog>2</WoodLog>
+    </costList>
+    <statBases>
+      <MarketValue>11.2</MarketValue>
+    </statBases>
+  </ThingDef>
+</Defs>

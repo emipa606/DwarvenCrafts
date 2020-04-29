@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>DWC_Crafts</defName>
+    <label>Crafts</label>
+    <parent>Manufactured</parent>
+    <iconPath>Cupro/Item/Crafts/Icon</iconPath>
+  </ThingCategoryDef>
+</Defs>
