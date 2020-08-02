@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Work tables -->
+
+  <DWC_TableCrafting.label>dwarven crafting table</DWC_TableCrafting.label>
+  <DWC_TableCrafting.description>A workbench equipped for crafting figurines and simple tableware.</DWC_TableCrafting.description>
+
+
+</LanguageData>
