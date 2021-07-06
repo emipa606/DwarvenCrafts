@@ -1,91 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Base Inheritors -->
-
   <DWC_Figurine.label>figurine</DWC_Figurine.label>
   <DWC_Figurine.description>A miniature piece of material sculpted into an artistic form.</DWC_Figurine.description>
-
-
   <!-- Stone Mugs -->
-
   <DWC_Mug_Stone.label>mug</DWC_Mug_Stone.label>
   <DWC_Mug_Stone.description>A simple stone mug for drinking out of.</DWC_Mug_Stone.description>
-
   <DWC_HQMug_Stone.label>high-quality mug</DWC_HQMug_Stone.label>
   <DWC_HQMug_Stone.description>An impressive stone mug for drinking out of.</DWC_HQMug_Stone.description>
-
-
   <!-- Metal Goblets -->
-
   <DWC_Goblet_Steel.label>steel goblet</DWC_Goblet_Steel.label>
   <DWC_Goblet_Steel.description>A simple metal goblet for drinking out of.</DWC_Goblet_Steel.description>
-
   <DWC_HQGoblet_Steel.label>high-quality steel goblet</DWC_HQGoblet_Steel.label>
   <DWC_HQGoblet_Steel.description>An impressive metal goblet for drinking out of.</DWC_HQGoblet_Steel.description>
-
   <DWC_Goblet_Silver.label>silver goblet</DWC_Goblet_Silver.label>
   <DWC_Goblet_Silver.description>A simple metal goblet for drinking out of.</DWC_Goblet_Silver.description>
-
   <DWC_HQGoblet_Silver.label>high-quality silver goblet</DWC_HQGoblet_Silver.label>
   <DWC_HQGoblet_Silver.description>An impressive metal goblet for drinking out of.</DWC_HQGoblet_Silver.description>
-
   <DWC_Goblet_Gold.label>golden goblet</DWC_Goblet_Gold.label>
   <DWC_Goblet_Gold.description>A simple metal goblet for drinking out of.</DWC_Goblet_Gold.description>
-
   <DWC_HQGoblet_Gold.label>high-quality golden goblet</DWC_HQGoblet_Gold.label>
   <DWC_HQGoblet_Gold.description>An impressive metal goblet for drinking out of.</DWC_HQGoblet_Gold.description>
-
-
   <!-- Wooden Cups -->
-
   <DWC_Cup_Wood.label>wooden cup</DWC_Cup_Wood.label>
   <DWC_Cup_Wood.description>A simple wooden cup for drinking out of.</DWC_Cup_Wood.description>
-
   <DWC_HQCup_Wood.label>high-quality wooden cup</DWC_HQCup_Wood.label>
   <DWC_HQCup_Wood.description>An impressive wooden cup for drinking out of.</DWC_HQCup_Wood.description>
-
-
   <!-- Pots -->
-
   <DWC_SmallPot_Steel.label>small steel pot</DWC_SmallPot_Steel.label>
   <DWC_SmallPot_Steel.description>A small metal pot for cooking in.</DWC_SmallPot_Steel.description>
-
   <DWC_SmallPot_Silver.label>small silver pot</DWC_SmallPot_Silver.label>
   <DWC_SmallPot_Silver.description>A small metal pot for cooking in.</DWC_SmallPot_Silver.description>
-
   <DWC_LargePot_Steel.label>large steel pot</DWC_LargePot_Steel.label>
   <DWC_LargePot_Steel.description>A large metal pot for cooking in.</DWC_LargePot_Steel.description>
-
   <DWC_LargePot_Silver.label>large silver pot</DWC_LargePot_Silver.label>
   <DWC_LargePot_Silver.description>A large metal pot for cooking in.</DWC_LargePot_Silver.description>
-
-
   <!-- Bowls -->
-
   <DWC_Bowl_Stone.label>bowl</DWC_Bowl_Stone.label>
   <DWC_Bowl_Stone.description>A bowl for eating out of.</DWC_Bowl_Stone.description>
-
   <DWC_Bowl_Steel.label>steel bowl</DWC_Bowl_Steel.label>
   <DWC_Bowl_Steel.description>A bowl for eating out of.</DWC_Bowl_Steel.description>
-
   <DWC_Bowl_Wood.label>wooden bowl</DWC_Bowl_Wood.label>
   <DWC_Bowl_Wood.description>A bowl for eating out of.</DWC_Bowl_Wood.description>
-
-
   <!-- Utensils -->
-
   <DWC_Utensils_Steel.label>steel utensils</DWC_Utensils_Steel.label>
   <DWC_Utensils_Steel.description>A set of utensils for eating with.</DWC_Utensils_Steel.description>
-
   <DWC_Utensils_Silver.label>silver utensils</DWC_Utensils_Silver.label>
   <DWC_Utensils_Silver.description>A set of utensils for eating with.</DWC_Utensils_Silver.description>
-
   <DWC_Utensils_Gold.label>golden utensils</DWC_Utensils_Gold.label>
   <DWC_Utensils_Gold.description>A set of utensils for eating with.</DWC_Utensils_Gold.description>
-
   <DWC_Utensils_Wood.label>wooden utensils</DWC_Utensils_Wood.label>
   <DWC_Utensils_Wood.description>A set of utensils for eating with.</DWC_Utensils_Wood.description>
-
-
 </LanguageData>
