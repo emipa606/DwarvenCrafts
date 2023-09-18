@@ -1,5 +1,8 @@
 # Changelog for DwarvenCrafts
 
+1.4.2 - Fixed the trade-tags, again
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

@@ -37,4 +37,5 @@ Figurine: Crafted using metallic, stony, or woody materials
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2078506406]![Image](https://img.shields.io/github/v/release/emipa606/DwarvenCrafts?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 

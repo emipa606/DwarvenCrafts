@@ -17,6 +17,7 @@
     <tradeTags>
       <li>Furniture</li>
       <li>Exotic</li>
+      <li>Art</li>
     </tradeTags>
     <tradeability>Sellable</tradeability>
   </ThingDef>
