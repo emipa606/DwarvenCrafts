@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 4172066829
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8436b50bc31152d5cad2d60f22df904a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8436b50bc31152d5cad2d60f22df904a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/HQMug.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/HQGoblet.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Object/Station/DwarvenCraftingTable/CraftingTable_east.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Figurine/FigurineA.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Bowl.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Utensils.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Cup.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/SmallPot.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Goblet.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/LargePot.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Figurine/FigurineB.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Mug.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Figurine/FigurineE.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Figurine/FigurineD.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Object/Station/DwarvenCraftingTable/CraftingTable_south.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/HQCup.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Figurine/FigurineC.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Item/Crafts/Icon.png
+- Assets/Data/Mlie.DwarvenCrafts/Textures/Cupro/Object/Station/DwarvenCraftingTable/CraftingTable_north.png
+Dependencies: []
